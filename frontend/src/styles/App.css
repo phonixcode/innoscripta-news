@@ -1,0 +1,42 @@
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+input, button {
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
