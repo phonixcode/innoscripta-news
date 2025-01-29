@@ -15,9 +15,9 @@ Before you begin, ensure you have met the following requirements:
    Clone the project repository to your local machine:
 
    ```bash
-   git clone 
-   cd 
-   cd `backend`
+   git clone https://github.com/phonixcode/innoscripta-news.git
+   cd innoscripta-news
+   cd backend
    ```
 
 2. **Install dependencies**:

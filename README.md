@@ -14,8 +14,8 @@ Ensure you have the following installed on your machine:
 
 ### 1. Clone the Repository
 ```sh
-git clone 
-cd 
+git clone https://github.com/phonixcode/innoscripta-news.git
+cd innoscripta-news
 ```
 
 ### 2. Navigate to Backend Directory
@@ -106,6 +106,6 @@ docker exec -it your-backend-container-name chmod -R 777 storage bootstrap/cache
 ```
 
 ## Conclusion
-You have successfully set up the project using Docker! 🎉
+You have successfully set up the project using Docker!
 
 This repository contains both the frontend and backend components of the news aggregator website. The modular design allows for easy maintenance and scalability. For detailed setup instructions, refer to the individual README files in the /backend and /frontend directories.

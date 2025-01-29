@@ -6,9 +6,9 @@
 
 1. **Clone the repository**:
    ```bash
-    git clone ``
-    cd ``
-    cd `frontend`
+    git clone https://github.com/phonixcode/innoscripta-news.git
+    cd innoscripta-news
+    cd frontend
    ```
 
 2. **Install dependencies**:
