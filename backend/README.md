@@ -56,13 +56,28 @@ Before you begin, ensure you have met the following requirements:
    php artisan db:seed
    ```
 
-8. **Generate Articles Using Artisan Command**:
+8. **Get API Keys (Required for Article Fetching)**:
+   The application requires API keys from different news sources. Obtain them from:
+
+   - NewsAPI: [Get your API key](https://newsapi.org/docs/get-started)
+   - The Guardian API: [Get your API key](https://open-platform.theguardian.com/access/)
+   - New York Times API: [Get your API key](https://developer.nytimes.com/apis)
+
+   Once obtained, add them to the `.env` file:
+
+   ```sh
+   NEWS_API_KEY=your_newsapi_key
+   GUARDIAN_API_KEY=your_guardian_api_key
+   NYT_API_KEY=your_nyt_api_key
+   ```
+
+9. **Generate Articles Using Artisan Command**:
     To fetch and save articles from the command line, run:
     ```sh
     php artisan articles:fetch-and-save
     ```
-9. **Access the Application**:
+10. **Access the Application**:
     ```sh
     php artisan serve
     ```
-- **Backend API:** Open `http://localhost:8000`
+    **Backend API:** Open `http://localhost:8000`

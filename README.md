@@ -57,24 +57,39 @@ Replace `your-backend-container-name` with the actual container name.You can fin
 docker ps
 ```
 
-### 6. Generate Articles Using Artisan Command
+### 6. Get API Keys (Required for Article Fetching)
+The application requires API keys from different news sources. Obtain them from:
+
+- NewsAPI: [Get your API key](https://newsapi.org/docs/get-started)
+- The Guardian API: [Get your API key](https://open-platform.theguardian.com/access/)
+- New York Times API: [Get your API key](https://developer.nytimes.com/apis)
+
+Once obtained, add them to the `.env` file:
+
+```sh
+NEWS_API_KEY=your_newsapi_key
+GUARDIAN_API_KEY=your_guardian_api_key
+NYT_API_KEY=your_nyt_api_key
+```
+
+### 8. Generate Articles Using Artisan Command
 To fetch and save articles from the command line, run:
 ```sh
 docker exec -it backend-container-name php artisan articles:fetch-and-save
 ```
 
-### 7. Access the Application
+### 9. Access the Application
 - **Frontend:** Open `http://localhost:3000`
 - **Backend API:** Open `http://localhost:8000`
 - **MySQL Database:** Connect using `localhost:3306`, username `root`, and the password set in `.env`
 
-### 7. Stopping the Containers
+### 10. Stopping the Containers
 To stop all running containers, use:
 ```sh
 docker-compose down
 ```
 
-### 8. Additional Docker Commands
+### 11. Additional Docker Commands
 - View running containers:
   ```sh
   docker ps
