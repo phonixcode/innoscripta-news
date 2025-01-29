@@ -50,7 +50,7 @@ This will start the following services:
 ### 5. Run Database Migrations
 Once the containers are up, open a new terminal and run:
 ```sh
-docker exec -it your-backend-container-name php artisan migrate --seed
+docker exec -it your-backend-container-name php artisan migrate:fresh --seed
 ```
 Replace `your-backend-container-name` with the actual container name.You can find it by running:
 ```sh
