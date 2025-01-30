@@ -1,9 +1,9 @@
 # Project Overview
-This project involves building a full-stack web application that combines Laravel (backend) and React.js with TypeScript (frontend) to create a news aggregator platform.
+The News Aggregator is a full-stack web application designed to aggregate, filter, and display news articles from multiple sources.
 
 # Docker Setup Instructions
 
-This project is set up to run using Docker. Follow these instructions to get both the backend and frontend running:
+This project is fully containerized for seamless deployment. Follow these steps to get the application up and running.
 
 ## Prerequisites
 Ensure you have the following installed on your machine:
@@ -121,6 +121,6 @@ docker exec -it your-backend-container-name chmod -R 777 storage bootstrap/cache
 ```
 
 ## Conclusion
-You have successfully set up the project using Docker!
+You have successfully set up the News Aggregator using Docker!
 
-This repository contains both the frontend and backend components of the news aggregator website. The modular design allows for easy maintenance and scalability. For detailed setup instructions, refer to the individual README files in the /backend and /frontend directories.
+For further customization, refer to the `README` files in the `/backend` and `/frontend` directories.
