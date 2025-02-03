@@ -66,7 +66,7 @@ Before you begin, ensure you have met the following requirements:
    Once obtained, add them to the `.env` file:
 
    ```sh
-   NEWS_API_KEY=your_newsapi_key
+   NEWS_API_KEY=your_news_api_key
    GUARDIAN_API_KEY=your_guardian_api_key
    NYT_API_KEY=your_nyt_api_key
    ```
